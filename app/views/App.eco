@@ -1,0 +1,16 @@
+ <div id="views">
+    <div id="tasks">
+      <h1>Todos</h1>
+      
+      <form>
+        <input type="text" placeholder="What needs to be done?">
+      </form>
+      
+      <div class="items"></div>
+      
+      <footer>
+        <a class="clear">Clear completed</a>
+        <div class="count"><span class="countVal"></span> left</div>
+      </footer>
+    </div>
+  </div>  

@@ -1,7 +1,7 @@
 {
-    "name": "kanso-spine-simplest",
+    "name": "kanso-spine-todo",
     "version": "0.0.1",
-    "description": "A very simple Kanso - Spine app",
+    "description": "A very simple Kanso - Spine Todo List app",
     "dependencies": {
         "attachments": null       
     },

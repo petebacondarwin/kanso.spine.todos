@@ -1,0 +1,10 @@
+<div class="item<% if @done: %> done<% end %>">
+  <div class="view" title="Double click to edit...">
+    <input type="checkbox" <% if @done: %>checked="checked"<% end %>> 
+    <span><%= @name %></span> <a class="destroy"></a>
+  </div>
+  
+  <div class="edit">
+    <input type="text" value="<%= @name %>">
+  </div>
+</div>
