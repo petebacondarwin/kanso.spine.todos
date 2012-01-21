@@ -1,0 +1,9 @@
+{
+    "name": "kanso-spine-simplest",
+    "version": "0.0.1",
+    "description": "A very simple Kanso - Spine app",
+    "dependencies": {
+        "attachments": null       
+    },
+    "attachments": ["public"]
+}
