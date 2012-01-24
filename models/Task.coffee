@@ -1,4 +1,4 @@
-Spine = require('spine')
+Spine = require('spine/core')
 
 class Task extends Spine.Model
   @configure "Task", "name", "done"
