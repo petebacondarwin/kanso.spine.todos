@@ -3,7 +3,24 @@
     "version": "0.0.1",
     "description": "A very simple Kanso - Spine Todo List app",
     "dependencies": {
-        "attachments": null       
+        "attachments": null,
+        "modules": null,
+        "eco-1.1.0": null,
+        "spine": null,
+        "jquery": null,
+        "json2": null,
+        "es5shim": null,
+        "coffee-script-precompiler": null,
+        "stylus-precompiler": null
     },
-    "attachments": ["public"]
+    "attachments": ["index.html"],
+    "stylus": {
+        "compile": ["css/application.styl"]
+    },
+    "eco": {
+        "templates": ["views"]
+    },
+    "coffee-script": {
+        "modules": ["App.coffee", "lib", "controllers", "models"]
+    }
 }
