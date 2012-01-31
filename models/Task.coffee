@@ -1,9 +1,10 @@
 Spine = require('spine/core')
+require('spine-adapter/couch-ajax')
 
 class Task extends Spine.Model
   @configure "Task", "name", "done"
-  
-  @extend Spine.Model.Local
+
+  @extend Spine.Model.CouchAjax
 
   @activeTasks: ->
     @select (item) -> !item.done

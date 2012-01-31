@@ -5,14 +5,16 @@
     "dependencies": {
         "attachments": null,
         "modules": null,
-        "eco-1.1.0": null,
+        "eco": null,
         "spine": null,
         "jquery": null,
         "json2": null,
         "es5shim": null,
+        "stylus-precompiler": null,
         "coffee-script-precompiler": null,
-        "stylus-precompiler": null
+        "spine-adapter": null
     },
+    "load": "server/app",
     "attachments": ["index.html"],
     "stylus": {
         "compile": ["css/application.styl"]
@@ -21,6 +23,6 @@
         "templates": ["views"]
     },
     "coffee-script": {
-        "modules": ["App.coffee", "lib", "controllers", "models"]
+        "modules": ["App.coffee", "lib", "controllers", "models", "server"]
     }
 }
